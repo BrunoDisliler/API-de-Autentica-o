@@ -1,0 +1,23 @@
+{
+  "name": "02---autenticacao-node-mongodb-jwt",
+  "version": "1.0.0",
+  "description": "Irei criar uma API com Express e MongoDB, onde teremos endpoint públicos e privados. Os privados precisam do token para serem acessados.  O token é entregue através do login bem sucedido.  Precisamos enviar o token pelo header da requisição. Um middleware valida se o token é válido ou não Não há persistência de sessão no back-end, tudo é feito pelo token",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
